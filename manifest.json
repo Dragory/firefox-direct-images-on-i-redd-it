@@ -1,20 +1,26 @@
 {
-	"manifest_version": 3,
-	"name": "Open images directly on i.redd.it",
-	"version": "0.0.1",
-	"background": {
-		"scripts": ["background.js"]
-	},
-	"permissions": [
-		"webRequest",
-		"webRequestBlocking"
-	],
-	"host_permissions": [
-		"*://i.redd.it/*"
-	],
-	"browser_specific_settings": {
-		"gecko": {
-			"id": "open-images-directly-on-i-redd-it@dragory.net"
-		}
-	}
+  "manifest_version": 3,
+  "name": "Open images directly on i.redd.it",
+  "version": "0.0.2",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "action": {},
+  "host_permissions": [
+    "*://i.redd.it/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "rules",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "open-images-directly-on-i-redd-it@dragory.net"
+    }
+  }
 }
