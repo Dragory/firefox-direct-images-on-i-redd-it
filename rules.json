@@ -14,7 +14,8 @@
     },
     "condition": {
       "requestDomains": [
-        "i.redd.it"
+        "i.redd.it",
+        "preview.redd.it"
       ],
       "resourceTypes": [
         "main_frame"

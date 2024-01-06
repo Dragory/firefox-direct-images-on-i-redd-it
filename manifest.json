@@ -1,12 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "Open images directly on i.redd.it",
-  "version": "0.0.3",
+  "name": "Open Reddit images directly",
+  "version": "0.0.5",
   "permissions": [
     "declarativeNetRequest"
   ],
   "host_permissions": [
-    "*://i.redd.it/*"
+    "*://i.redd.it/*",
+    "*://preview.redd.it/*"
   ],
   "declarative_net_request": {
     "rule_resources": [
