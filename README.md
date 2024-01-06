@@ -2,6 +2,8 @@
 
 Lightweight browser extension that forces images on i.redd.it and preview.redd.it to open directly in the browser, rather than being embedded in a splash page.
 
+<img src="img/ext-screenshot-1.jpg" width="350"> <img src="img/ext-screenshot-2.jpg" width="350">
+
 ## Usage on Firefox
 
 1. Install the addon from https://addons.mozilla.org/en-US/firefox/addon/direct-images-on-i-redd-it/
