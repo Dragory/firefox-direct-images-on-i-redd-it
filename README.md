@@ -1,6 +1,6 @@
 # Open Reddit images directly
 
-This is a web extension that forces images on i.redd.it and preview.redd.it to open directly in the browser, rather than being embedded in a splash page.
+Lightweight browser extension that forces images on i.redd.it and preview.redd.it to open directly in the browser, rather than being embedded in a splash page.
 
 ## Usage on Firefox
 
