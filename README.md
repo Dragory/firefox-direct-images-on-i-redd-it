@@ -2,7 +2,7 @@
 
 Lightweight browser extension that forces images on i.redd.it and preview.redd.it to open directly in the browser, rather than being embedded in a splash page.
 
-<img src="img/ext-screenshot-1.jpg" width="350"> <img src="img/ext-screenshot-2.jpg" width="350">
+<img src="img/ext-github-preview.webp" width="640">
 
 ## Usage on Firefox
 
