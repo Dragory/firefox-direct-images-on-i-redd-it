@@ -1,3 +1,3 @@
 #!/bin/bash
 
-zip -FSr fix-ireddit-dist.zip manifest.json rules.json
+zip -FSr "open-reddit-images-directly-$(jq -r ".version" manifest.json).zip" manifest.json rules.json
